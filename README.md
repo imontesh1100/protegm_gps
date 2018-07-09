@@ -28,3 +28,18 @@ _*Parametro obligatorio_
 |                | `{error_msg:'Ha ocurrido un error, intenta de nuevo'}`  |
 
 _*Parametro obligatorio_
+
+| Titulo      | Busqueda por Placa  |
+| :------------ |:---------------    |
+| URL         | `/gps/filtroPlacas`   |
+| Metodo      | **GET**             |
+| Parametros  | `token[string]*`    |
+|             | `placa[string]*`|
+| Success Response | `[{"imei": "----","placa": "---"},{"imei": "---","placa": "-"}]`  |
+|                | `{ "msg": "No existen coincidencias para xxx"}` |
+| Error Response | `{error_msg':'Faltan Parametros Obligatorios}`  |
+|                | `{error_msg:'Token Incorrecto'}`  |
+|                | `{error_msg:'Ha ocurrido un error, intenta de nuevo'}`  |
+
+_*Parametro obligatorio_
+
