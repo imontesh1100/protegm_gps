@@ -2,7 +2,7 @@
 ----
   _A continuacion se muestra de forma general cada uno de los servicios creados para la aplicación móvil GPS MULTISISTEMAS , se incluye toda la información necesaria para hacer las consultas correspondientes._
 
-**Usuarios**
+**Servicios**
 ----
 | Titulo      | Inicio de Sesión  | 
 | :------------ |:---------------    | 
@@ -17,3 +17,14 @@
 
 _*Parametro obligatorio_
 
+| Titulo      | Información General  |
+| :------------ |:---------------    |
+| URL         | `/gps/infoGeneral`   |
+| Metodo      | **GET**             |
+| Parametros  | `token[string]*`    |
+| Success Response | `{"usuario":"----","grupo":"---","sitios":[{"nombre":"--","id":-},{"nombre":"--","id":-}],"qtyVehiculos":--}`  |
+| Error Response | `{error_msg':'Faltan Parametros Obligatorios}`  |
+|                | `{error_msg:'Token Incorrecto'}`  |
+|                | `{error_msg:'Ha ocurrido un error, intenta de nuevo'}`  |
+
+_*Parametro obligatorio_
