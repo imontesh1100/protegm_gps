@@ -43,3 +43,17 @@ _*Parametro obligatorio_
 
 _*Parametro obligatorio_
 
+| Titulo      | Información Vhiculo  |
+| :------------ |:---------------    |
+| URL         | `/gps/infoVehiculo`   |
+| Metodo      | **GET**             |
+| Parametros  | `token[string]*`    |
+|             | `imei[string]*`    |
+| Success Response | `{"placa": "--", "num_economico": "--","velocidad": "--","motor": -}`  |
+|                | `{ "msg": "No existen coincidencias para la IMEI: ---"}` |
+| Error Response | `{error_msg':'Faltan Parametros Obligatorios}`  |
+|                | `{error_msg:'Token Incorrecto'}`  |
+|                | `{error_msg:'Ha ocurrido un error al obtener la informacion, intenta de nuevo'}`  |
+
+_*Parametro obligatorio_
+
