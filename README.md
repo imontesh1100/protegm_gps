@@ -43,7 +43,7 @@ _*Parametro obligatorio_
 
 _*Parametro obligatorio_
 
-| Titulo      | Información Vhiculo  |
+| Titulo      | Información Vehiculo  |
 | :------------ |:---------------    |
 | URL         | `/gps/infoVehiculo`   |
 | Metodo      | **GET**             |
@@ -56,4 +56,20 @@ _*Parametro obligatorio_
 |                | `{error_msg:'Ha ocurrido un error al obtener la informacion, intenta de nuevo'}`  |
 
 _*Parametro obligatorio_
+
+| Titulo      | Coordenadas  |
+| :------------ |:---------------    |
+| URL         | `/gps/infoVehiculo`   |
+| Metodo      | **GET**             |
+| Parametros  | `token[string]*`    |
+|             | `imei[string]`    |
+|             | `sitio_id[string]`    |
+| Success Response | `[{"imei": "--","latitud": "-","longitud": "-"},{"imei": "--","latitud": "--","longitud": "--"}...]`  |
+|                | `{ "msg": "No existen coincidencias :("}` |
+| Error Response | `{error_msg':'Faltan Parametros Obligatorios}`  |
+|                | `{error_msg:'Token Incorrecto'}`  |
+|                | `{error_msg:'Ha ocurrido un error, intenta de nuevo'}`  |
+
+_*Parametro obligatorio_
+
 
