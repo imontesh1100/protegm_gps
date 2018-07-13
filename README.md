@@ -59,7 +59,7 @@ _*Parametro obligatorio_
 
 | Titulo      | Coordenadas  |
 | :------------ |:---------------    |
-| URL         | `/gps/infoVehiculo`   |
+| URL         | `/gps/coordenadas`   |
 | Metodo      | **GET**             |
 | Parametros  | `token[string]*`    |
 |             | `imei[string]`    |
