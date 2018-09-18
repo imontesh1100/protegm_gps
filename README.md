@@ -22,7 +22,7 @@ _*Parametro obligatorio_
 | URL         | `/gps/infoGeneral`   |
 | Metodo      | **GET**             |
 | Parametros  | `token[string]*`    |
-| Success Response | `{"usuario":"----","grupo":"---","sitios":[{"nombre":"--","id":-},{"nombre":"--","id":-}],"qtyVehiculos":--}`  |
+| Success Response | `{"usuario":"----","grupo":"---","sitios":[{"nombre":"--","id":-,"qty":-},{"nombre":"--","id":-,"qty":-}],"qtyVehiculos":--}`  |
 | Error Response | `{error_msg':'Faltan Parametros Obligatorios}`  |
 |                | `{error_msg:'Token Incorrecto'}`  |
 |                | `{error_msg:'Ha ocurrido un error, intenta de nuevo'}`  |
