@@ -64,7 +64,7 @@ _*Parametro obligatorio_
 | Parametros  | `token[string]*`    |
 |             | `imei[string]`    |
 |             | `sitio_id[string]`    |
-| Success Response | `[{"imei": "--","latitud": "-","longitud": "-","status":-},{"imei": "--","latitud": "--","longitud": "--","status":-}...]`  |
+| Success Response | `[{"imei": "--","latitud": "-","longitud": "-","status":-,"icono":-},{"imei": "--","latitud": "--","longitud": "--","status":-}...]`  |
 |                | `{ "msg": "No existen coincidencias :("}` |
 | Error Response | `{error_msg':'Faltan Parametros Obligatorios}`  |
 |                | `{error_msg:'Token Incorrecto'}`  |
